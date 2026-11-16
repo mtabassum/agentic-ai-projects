@@ -394,7 +394,6 @@ Always follow the GOOD RESPONSE style.
 
         if not function_calls:
             return response.output_text
-       # print(response.output)
         tool_outputs = []
 
         # Pure Python: execute each function call returned by the LLM.
